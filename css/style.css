@@ -1,0 +1,116 @@
+/* CSS for Android development tutorial website */
+
+/* background */ 
+body{
+	background:url(../images/bg-body.jpg);
+}
+
+
+/* Font */ 
+@font-face {
+    font-family: 'RokkittRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Header */ 
+.header{
+	background:url(../images/separator.jpg) no-repeat center 90px;
+	width:940px;
+	margin:auto;
+	height:105px;
+	padding:30px 10px 0;
+}
+
+.header ul{
+	list-style:none;
+	float:right;
+}
+.header ul li{
+	float:left;
+	margin:0 0 0 63px;
+}
+.header ul li.selected a{
+	color:#f78117;
+}
+.header ul li a:hover{
+	color:#33CC33;
+}
+.header ul li a{
+	font-size:16px;
+	text-decoration:none;
+	color:#5e5e5e;		
+}
+
+/* Body */ 
+.body{
+
+
+	width:940px;
+	margin: auto;
+	padding:0 20px;
+	overflow:hidden;
+}
+
+
+.body div#featured p{
+	width:480px;
+	color:#5d5d5d;	
+	font-size:18px;
+	text-align:justify;
+	margin:0;
+}
+
+.body p{
+	font-size:16px;
+	text-align:justify;
+	color:#636363;
+	margin:0 0 20px;
+}
+.body p a{
+	outline:none;
+	color:#636363;
+}
+
+/* Footer */ 
+.footer{
+	width:940px;
+	background:url(../images/separator.jpg) no-repeat center top;
+	padding:20px 10px 207px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.footer ul{
+	list-style:none;
+	margin:0 0 0 60px;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+
+.footer ul li{
+	float:left;
+}
+.footer ul li a:hover{
+	color:#33CC33;
+}
+.footer ul li a{
+	border-width: 1px;
+	border-color:#5b5b5b;
+	border-style: none none none solid;
+	color:#5b5b5b;
+	font-size:10px;
+	font-family: Trebuchet MS;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0 6px;
+}
+
+.footer p{
+	color:#5b5b5b;
+	font-size:10px;
+	font-family: Trebuchet MS;
+	font-weight:bold;
+	float:left;
+	margin:6px 0 0 135px;
+}
